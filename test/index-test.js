@@ -1,8 +1,3 @@
-global.expect = require('expect');
- 
-const babel = require('babel-core');
-const jsdom = require('jsdom');
-const path = require('path');
 
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
